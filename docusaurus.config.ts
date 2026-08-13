@@ -21,7 +21,6 @@ const config: Config = {
   projectName: "fogorow-documentation", // Usually your repo name.
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -61,7 +60,11 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn"
+    }
+  },
   plugins: ["docusaurus-plugin-zooming", "docusaurus-lunr-search"],
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
