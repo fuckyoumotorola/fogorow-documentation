@@ -42,7 +42,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Modding',
-      items: ['modding/custom-bootloader', 'modding/custom-recovery', 'modding/root', 'modding/custom-logo', 'modding/gcam']
+      items: ['modding/custom-bootloader-chouchou', 'modding/custom-bootloader-kaeru', 'modding/custom-recovery', 'modding/root', 'modding/custom-logo', 'modding/gsi', 'modding/gcam']
     },
     {
       type: 'category',
