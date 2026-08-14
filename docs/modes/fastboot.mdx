@@ -4,13 +4,13 @@ title: Fastboot
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
 import startImg from "@site/static/assets/fastboot/start.png";
 import recoveryImg from "@site/static/assets/fastboot/recovery.png";
 import barcodesImg from "@site/static/assets/fastboot/barcodes.png";
 import restartBootloaderImg from "@site/static/assets/fastboot/restart-bootloader.png";
 import poweroffImg from "@site/static/assets/fastboot/poweroff.png";
 import fastbootdImg from "@site/static/assets/fastboot/fastbootd.jpg";
+import { commands } from "./fastboot_commands";
 
 ## Screenshots
 
@@ -66,7 +66,6 @@ There are many ways to boot into Fastboot mode, you can use one of the last comp
 
 ### Boot to FastbootD mode
 
-
 #### Using ADB command
 - Enable USB debugging
 - Connect the phone to PC, run ```adb devices``` command and confirm USB debugging if you have not connected the phone to the current PC via adb before
@@ -82,3 +81,23 @@ There are many ways to boot into Fastboot mode, you can use one of the last comp
   ```sh
     fastboot reboot fastboot
   ```
+
+## Available commands
+{commands.map((item, index) => (
+<details key={index} className="custom-details" style={{marginBottom: 20}}>
+    <summary>
+        <code>{item.command}</code>
+    </summary>
+    <div className={"content"}>
+        <br />
+        <p><strong>Description:</strong> {item.description}</p>
+        <p><strong>Output:</strong></p>
+        <pre>
+        <code>{item.output}</code>
+          {item.additionalInformation && (
+          <p><strong>Additional information:</strong> {item.additionalInformation}</p>
+          )}
+      </pre>
+    </div>
+</details>
+))}

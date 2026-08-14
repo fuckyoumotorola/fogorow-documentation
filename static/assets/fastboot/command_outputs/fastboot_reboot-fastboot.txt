@@ -1,0 +1,3 @@
+> fastboot reboot-fastboot
+Rebooting into fastboot                            OKAY [  0.005s]
+< waiting for any device >

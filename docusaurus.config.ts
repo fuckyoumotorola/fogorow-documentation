@@ -65,7 +65,7 @@ const config: Config = {
       onBrokenMarkdownLinks: "warn"
     }
   },
-  plugins: ["docusaurus-plugin-zooming", "docusaurus-lunr-search"],
+  plugins: ["docusaurus-plugin-zooming", "docusaurus-lunr-search", "./plugins/raw-txt"],
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
     metadata: [

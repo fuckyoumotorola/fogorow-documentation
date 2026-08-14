@@ -1,0 +1,4 @@
+> fastboot oem lks
+(bootloader) lks = 1
+OKAY [  0.007s]
+Finished. Total time: 0.007s

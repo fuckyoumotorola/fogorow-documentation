@@ -1,0 +1,15 @@
+> fastboot reboot
+Rebooting                                          OKAY [  0.000s]
+Finished. Total time: 0.002s
+
+> fastboot reboot bootloader
+Rebooting into bootloader                          OKAY [  0.000s]
+Finished. Total time: 0.004s
+
+> fastboot reboot recovery
+Rebooting into recovery                            OKAY [  0.001s]
+Finished. Total time: 0.005s
+
+> fastboot reboot fastboot
+Rebooting into fastboot                            OKAY [  0.005s]
+< waiting for any device >
