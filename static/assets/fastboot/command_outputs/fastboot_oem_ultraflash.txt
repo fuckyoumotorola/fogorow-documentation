@@ -1,0 +1,3 @@
+> fastboot oem ultraflash:super super.img
+(bootloader) [secure] not allow
+FAILED (remote: '[secure] not allow')

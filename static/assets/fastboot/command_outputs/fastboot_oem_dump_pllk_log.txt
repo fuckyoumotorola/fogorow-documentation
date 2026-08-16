@@ -1,0 +1,17 @@
+> fastboot oem dump_pllk_log
+...
+[67674]
+(bootloader)  [fastboot: command
+(bootloader) buf]-[oem p2u off]-[
+(bootloader) len=11]
+[67675] [fa
+(bootloader) stboot]-[download_ba
+(bootloader) se:0x4e000000]-[down
+(bootloader) load_size:0x0]
+[676
+(bootloader) 76] [Cmd process]-[b
+(bootloader) uf:oem p2u off]-[len
+(bootloader) Buf: off]
+[SEC_USBD
+OKAY [  0.290s]
+Finished. Total time: 0.290s

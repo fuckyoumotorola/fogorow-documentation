@@ -10,9 +10,74 @@ You can flash the branded custom logo of fuckyoumoto project
 ## Download
 [custom-logo.bin](../../static/modding/custom-logo.bin)
 
+## Creating custom boot logos
+:::info
+This tool is not affiliated or made by FuckYouMotorola 
+:::
+[Fogorow Boot Logo Maker](https://github.com/fuckyoumotorola/device_motorola_fogorow-boot-logo-maker)
+
+### Steps
+1. Install the required Python dependency:
+
+   ```shell
+   pip install pillow
+    ```
+
+2. Obtain your original `logo.bin` from the device and rename it to:
+
+   ```text
+   stock_logo.bin
+   ```
+
+3. Place `stock_logo.bin`, `main.py`, and your custom image in the same directory:
+
+   ```text
+   main.py
+   stock_logo.bin
+   image.png
+   ```
+
+4. Run the Boot Logo Maker with your custom image:
+
+   ```shell
+   python main.py image.png
+   ```
+
+   The tool will generate:
+
+   ```text
+   logo.bin
+   ```
+
+5. If the automatic format detection fails, specify the image format manually. For example:
+
+   ```shell
+   python main.py image.png --mode rgb565le
+   ```
+
+   or:
+
+   ```shell
+   python main.py image.png --mode rgb888
+   ```
+
+6. You can also change how the image is resized:
+
+   ```shell
+   python main.py image.png --resize contain
+   ```
+
+   Available resize modes are:
+
+   * `contain` — Keeps the entire image visible and adds a black background if necessary.
+   * `cover` — Fills the entire screen and crops the overflowing areas.
+   * `stretch` — Forces the image to the target resolution and may distort it.
+
+7. After successfully generating `logo.bin`, follow the flashing guide below.
+
 ## Flashing guide
 :::warning
-You need to make sure that [Custom bootloader (ChouChou)](./custom-bootloader) is installed and working correctly
+You need to make sure that [Custom bootloader (ChouChou)](./custom-bootloader-chouchou) or [Custom bootloader (Kaeru)](./custom-bootloader-kaeru) is installed and working correctly
 :::
 
 1. Boot into fastboot mode

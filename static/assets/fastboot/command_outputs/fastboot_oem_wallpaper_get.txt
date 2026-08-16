@@ -1,0 +1,4 @@
+> fastboot oem wallpaper get
+(bootloader) 208
+OKAY [  0.001s]
+Finished. Total time: 0.002s

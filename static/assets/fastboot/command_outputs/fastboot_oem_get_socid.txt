@@ -1,0 +1,7 @@
+> fastboot oem get_socid
+(bootloader) dump socid...
+(bootloader) 5A9C873D2E9F07876B3408B9617D92CA
+(bootloader) 2EDB602C0081A22CCAAF0385CB5A72E1
+(bootloader) finish dump
+OKAY [  0.006s]
+Finished. Total time: 0.007s

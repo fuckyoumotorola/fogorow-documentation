@@ -74,8 +74,6 @@ const config: Config = {
       id: "bootloader_unlock",
       content:
         "🎉 Found a way to unlock the bootloader for free with mtkclient!",
-      backgroundColor: "#fafbfc",
-      textColor: "#091E42",
       isCloseable: true,
     },
     navbar: {

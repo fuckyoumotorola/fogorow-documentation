@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -20,35 +20,51 @@ const sidebars: SidebarsConfig = {
 
   tutorialSidebar: [
     {
-      type: 'doc',
-      label: 'About',
-      id: 'about',
+      type: "doc",
+      label: "About",
+      id: "about",
     },
     {
-      type: 'category',
-      label: 'Info',
-      items: ['info/device-info', 'info/disassembling']
+      type: "category",
+      label: "Info",
+      items: ["info/device-info", "info/fix-softbricks", "info/disassembling"],
     },
     {
-      type: 'category',
-      label: 'Modes',
-      items: ['modes/fastboot', 'modes/metamode', 'modes/preloader']
+      type: "category",
+      label: "Modes",
+      items: ["modes/fastboot", "modes/metamode", "modes/preloader", "modes/pcs"],
     },
     {
-      type: 'category',
-      label: 'Development',
-      items: ['dev/bootloader', 'dev/testpoints', 'dev/partitions', 'dev/tools']
+      type: "category",
+      label: "Development",
+      items: [
+        "dev/bootloader",
+        "dev/testpoints",
+        "dev/partitions",
+        "dev/tools",
+      ],
     },
     {
-      type: 'category',
-      label: 'Modding',
-      items: ['modding/custom-bootloader-chouchou', 'modding/custom-bootloader-kaeru', 'modding/custom-recovery', 'modding/root', 'modding/custom-logo', 'modding/gsi', 'modding/gcam']
+      type: "category",
+      label: "Modding",
+      items: [
+        "modding/custom-bootloader-chouchou",
+        "modding/custom-bootloader-kaeru",
+        "modding/custom-recovery-twrp",
+        "modding/custom-recovery-ofrp",
+        "modding/custom-recovery-pbrp",
+        "modding/root",
+        "modding/custom-logo",
+        "modding/gsi",
+        "modding/custom-roms",
+        "modding/gcam",
+      ],
     },
     {
-      type: 'category',
-      label: 'GSI Roms',
-      items: ['gsi_roms/info', 'gsi_roms/rating']
-     }
+      type: "category",
+      label: "GSI Roms and Custom Roms",
+      items: ["gsi_roms/info", "gsi_roms/rating"],
+    }
   ],
 };
 

@@ -1,0 +1,9 @@
+> fastboot oem md5
+(bootloader) d41d8cd98f00b204e9800998ecf8427e
+OKAY [  0.004s]
+Finished. Total time: 0.005s
+
+> fastboot oem md5 hi
+(bootloader) 49f68a5c8493ec2c0bf489821c21fc3b
+OKAY [  0.002s]
+Finished. Total time: 0.004s

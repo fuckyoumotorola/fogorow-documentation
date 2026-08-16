@@ -11,6 +11,9 @@ This is a list of tools that helped during the research of information for bootl
 - [Motorola USB-Driver](https://en-us.support.motorola.com/app/usb-drivers) -- Official Motorola USB Drivers
 - [MTK Driver Auto Installer (Windows)](https://androidmtk.com/download-mtk-driver-auto-installer) -- Automatic Installer for Mediatek USB drivers (Windows)
 
+### ADB and Fastboot
+- [Android Platform Tools](https://developer.android.com/tools/releases/platform-tools) -- Official website for downloading Android SDK platform tools
+
 ### MTKClient
 * [mtkclient](https://github.com/bkerler/mtkclient) -- Utility to work with mtk based devices
 * [mtkclient-git AUR (Arch Linux)](https://aur.archlinux.org/packages/mtkclient-git) -- AUR Package for Arch Linux and its derivatives

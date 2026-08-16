@@ -1,0 +1,9 @@
+> fastboot oem ultraflash_en 1
+(bootloader) Enable ultra-flash.
+OKAY [  0.001s]
+Finished. Total time: 0.002s
+
+> fastboot oem ultraflash_en 0
+(bootloader) Disable ultra-flash.
+OKAY [  0.003s]
+Finished. Total time: 0.003s

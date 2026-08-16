@@ -1,0 +1,3 @@
+> fastboot oem set_active 0
+(bootloader) [secure] not allow
+FAILED (remote: '[secure] not allow')

@@ -1,0 +1,4 @@
+> fastboot oem flashinfo
+(bootloader) MICRON_LPDDR4X_8GB_KINGSTON_EMMC_128GB
+OKAY [  0.002s]
+Finished. Total time: 0.003s

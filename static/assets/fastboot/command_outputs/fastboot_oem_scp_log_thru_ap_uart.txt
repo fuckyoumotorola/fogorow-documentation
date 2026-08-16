@@ -1,0 +1,11 @@
+> fastboot oem scp_log_thru_ap_uart 1
+(bootloader) SCP log thru AP UART: on
+(bootloader) Please reboot to apply the change.
+OKAY [  0.005s]
+Finished. Total time: 0.005s
+
+> fastboot oem scp_log_thru_ap_uart 0
+(bootloader) SCP log thru AP UART: off
+(bootloader) Please reboot to apply the change.
+OKAY [  0.005s]
+Finished. Total time: 0.005s

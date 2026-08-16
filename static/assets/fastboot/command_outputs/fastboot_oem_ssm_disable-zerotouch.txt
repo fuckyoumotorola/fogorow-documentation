@@ -1,0 +1,3 @@
+> fastboot oem ssm disable-zerotouch
+(bootloader) no permission
+FAILED (remote: 'no permission')

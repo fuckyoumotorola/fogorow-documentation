@@ -1,0 +1,17 @@
+> fastboot oem usb2jtag 1
+(bootloader) Enable USB2JTAG
+(bootloader) rebooting device for usb2jtag support..
+
+(bootloader) rebooting device for usb2jtag support..
+
+FAILED (Device sent unknown status code: )
+fastboot: error: Command failed
+
+> fastboot oem usb2jtag 0
+(bootloader) Disable USB2JTAG
+(bootloader) rebooting device for usb2jtag support..
+
+(bootloader) rebooting device for usb2jtag support..
+
+FAILED (Device sent unknown status code: )
+fastboot: error: Command failed

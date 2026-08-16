@@ -1,0 +1,11 @@
+> fastboot oem scp_status 0
+(bootloader) Turn off SCP
+(bootloader) Plz reboot system to make it applied.
+OKAY [  0.005s]
+Finished. Total time: 0.005s
+
+> fastboot oem scp_status 1
+(bootloader) Turn on SCP
+(bootloader) Plz reboot system to make it applied.
+OKAY [  0.005s]
+Finished. Total time: 0.005s

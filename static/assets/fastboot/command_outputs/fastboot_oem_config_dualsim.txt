@@ -1,0 +1,4 @@
+> fastboot oem config dualsim 1
+(bootloader) [secure] not allow
+FAILED (remote: '[secure] not allow')
+Finished. Total time: 0.010s

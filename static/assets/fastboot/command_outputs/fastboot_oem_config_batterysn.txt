@@ -1,0 +1,4 @@
+> fastboot oem config batterysn SB18E01573
+(bootloader) [secure] not allow
+FAILED (remote: '[secure] not allow')
+Finished. Total time: 0.010s

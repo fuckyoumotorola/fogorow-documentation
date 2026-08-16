@@ -1,0 +1,7 @@
+> fastboot oem off-mode-charge 1
+OKAY [  0.005s]
+Finished. Total time: 0.006s
+
+> fastboot oem off-mode-charge 0
+OKAY [  0.005s]
+Finished. Total time: 0.006s

@@ -1,0 +1,6 @@
+> fastboot boot vendor_boot.img
+creating boot image...
+creating boot image - 67110912 bytes
+Sending 'boot.img' (65538 KB)                      OKAY [  1.598s]
+Booting                                            FAILED (usb_read failed: A device attached to the system is not functioning. (31))
+fastboot: error: Command failed

@@ -1,0 +1,7 @@
+> fastboot oem p2u on
+OKAY [  0.003s]
+Finished. Total time: 0.003s
+
+> fastboot oem p2u off
+OKAY [  0.003s]
+Finished. Total time: 0.003s
