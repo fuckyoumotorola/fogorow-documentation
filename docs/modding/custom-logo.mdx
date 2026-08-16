@@ -23,13 +23,7 @@ This tool is not affiliated or made by FuckYouMotorola
    pip install pillow
     ```
 
-2. Obtain your original `logo.bin` from the device and rename it to:
-
-   ```text
-   stock_logo.bin
-   ```
-
-3. Place `stock_logo.bin`, `main.py`, and your custom image in the same directory:
+3. Place your custom image in the same directory:
 
    ```text
    main.py
@@ -52,19 +46,19 @@ This tool is not affiliated or made by FuckYouMotorola
 5. If the automatic format detection fails, specify the image format manually. For example:
 
    ```shell
-   python main.py image.png --mode rgb565le
+   python main.py image.png --mode rgb565le --allow-bigger
    ```
 
    or:
 
    ```shell
-   python main.py image.png --mode rgb888
+   python main.py image.png --mode rgb888 --allow-bigger
    ```
 
 6. You can also change how the image is resized:
 
    ```shell
-   python main.py image.png --resize contain
+   python main.py image.png --resize contain --allow-bigger
    ```
 
    Available resize modes are:
