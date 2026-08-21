@@ -48,6 +48,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Modding",
       items: [
+        "modding/custom-bootloader-chikichou",
         "modding/custom-bootloader-chouchou",
         "modding/custom-bootloader-kaeru",
         "modding/custom-recovery-twrp",
