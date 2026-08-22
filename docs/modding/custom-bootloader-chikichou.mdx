@@ -12,17 +12,31 @@ export const images = [
 
 # Custom bootloader (ChikiChou)
 
+:::info
+Forked from [ChouChou](./custom-bootloader-chouchou.mdx)
+:::
+
 The custom bootloader protects the device from Hard Brick by preventing critical operations such as flashing the preloader and locking the bootloader without restoring the original firmware.
 
 In addition, it extends the functionality by adding new options for customizing and managing the system.
 
 ## Features
-- Blocks ```fastboot flash preloader```
-- Removes orange state
-- Spoofes verified state to green
-- Block ```fastboot flashing lock```
+
+- Adds ```fastboot oem download``` alias for ```fastboot download```
 - Adds ```fastboot oem help```
-- Adds ```fastboot oem hexdump```
+- Adds ```fastboot oem is-partition-protected```
+- Adds ```fastboot oem ssm-enable-thinkshield```
+- Adds ```fastboot oem ssm-enable-zerotouch```
+- Blocks ```fastboot erase``` on critical partitions
+- Blocks ```fastboot flash``` on critical partitions
+- Blocks ```fastboot flashing lock```
+- Blocks ```fastboot flashing unlock```
+- Hides bootloader orange state warning
+- Hides useless information from screen when is into bootloader mode
+- Patches ```fastboot oem ssm-disable-thinkshield```
+- Patches ```fastboot oem ssm-disable-zerotouch```
+- Publishes ```chikichou-version```
+- Publishes ```membase```
 
 ### Specific features, only for our device
 - The bootloader auto-lock security feature has been removed

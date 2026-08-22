@@ -2,6 +2,11 @@
 title: About
 ---
 
+:::warning
+**Non official documentation**
+
+Not affiliated with, endorsed by, or sponsored by FuckYouMoto or any other brand.
+:::
 
 :::warning
 **Early stage documentation**
