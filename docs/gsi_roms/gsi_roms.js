@@ -26,6 +26,10 @@ export const a15 = {
       name: "NothingOS 3.0 (AlsoMarcus)",
       link: "a15/alsomarcus_nothingos_3_0",
     },
+    {
+      name: "HOS 3 (AlsoMarcus)",
+      link: "a15/alsomarcus_hos_3",
+    },
   ],
   silver: [],
   bronze: [],
@@ -44,9 +48,9 @@ export const a16 = {
       link: "a16/victor_vasquez_crdroid_12_5",
     },
     {
-      name: "HOS 3 (AlsoMarcus)",
-      link: "a16/alsomarcus_hos_3",
-    },
+      name: "LineageOS 23.2 (Victor Vasquez)",
+      link: "a16/victor_vasquez_lineageos_26_2"
+    }
   ],
   silver: [],
   bronze: [],
